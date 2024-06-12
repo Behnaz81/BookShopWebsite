@@ -1,0 +1,46 @@
+body {
+    direction: rtl;
+    text-align: right;
+}
+input, textarea{
+    direction: rtl;
+    text-align: right;
+}
+
+
+.card {
+    direction: rtl;
+    margin: 20px;
+}
+
+.form-control-file {
+    margin-top: 10px;
+}
+
+.btn{
+    width: 100%;
+}
+
+.form-group label {
+    display: block;
+}
+
+.book-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    text-align: center;/* Add margin to separate the image from the form controls */
+}
+
+.col-md-4 {
+    text-align: right;
+}
+
+.col-md-8 {
+    text-align: right;
+}
+
+.row .col {
+    padding-left: 5px;
+    padding-right: 5px;
+}

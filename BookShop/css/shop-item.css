@@ -1,0 +1,49 @@
+/*!
+ * Start Bootstrap - Shop Item (https://startbootstrap.com/template-overviews/shop-item)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-item/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+
+ .custom-list {
+   display: grid;
+   grid-template-columns: max-content auto;
+   gap: 0.5rem 1rem;
+   padding: 0;
+   text-align: right;
+   margin: 0.5rem 0;
+   list-style: none;
+ }
+
+.custom-list li {
+  display: contents;
+  text-align: right;
+  padding: 0.5rem;
+
+}
+
+.custom-list .title {
+  font-weight: bold;
+  color: #333;
+}
+
+.custom-list .info {
+  text-align: right;
+
+}
+
+.card-body {
+  padding-bottom: 0; /* Reduce padding at the bottom of the card body */
+}
+
+.card-footer {
+  padding-top: 0.5rem; /* Reduce padding at the top of the card footer */
+  border-top: none; /* Remove border-top if not needed */
+  width: 100%;
+}
+.image-book{
+  height: 300px;
+  width: auto;
+}
